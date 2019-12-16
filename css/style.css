@@ -23,8 +23,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 /* My Changes*/
 .slider-context-size {
-  height: 300px;
-  width: 500px;
+  height: 330px;
+  width: 600px;
+}
+
+.review-image-size{
+  width: 16%;
 }
 
 .sticky {
@@ -132,7 +136,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-solid-border {
-  border: 2px solid #6B238E;
+  border: 2px solid #f75757;
   background: transparent;
   color: #242424;
 }
@@ -763,11 +767,11 @@ ul.dropdown-menu li {
 }
 
 .pricing .btn-solid-border {
-  border-color: #6B238E;
+  border-color: #f75757;
 }
 
 .pricing .btn-solid-border:Hover {
-  border-color: #6B238E;
+  border-color: #f75757;
 }
 
 .portflio-item .portfolio-item-content {

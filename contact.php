@@ -4,11 +4,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
-  
-  <meta name="author" content="themefisher.com">
 
-  <title>Megakit| Html5 Agency template</title>
+  <title>Tina Garcia</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -29,7 +26,7 @@
 
 <!-- Header Start --> 
 
-<header class="navigation">
+<header class="navigation" id="myHeader" style="z-index: 3">
 <!-- 	<div class="header-top ">
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
@@ -51,8 +48,9 @@
 	</div> -->
 	<nav class="navbar navbar-expand-lg  py-4" id="navbar">
 		<div class="container">
-		  <a class="navbar-brand" href="index.html">
-		  	Mega<span>kit.</span>
+		  <a class="navbar-brand" href="index.php">
+		  	<!-- <h2 style="color: white;">Tina <span>Garcia</span></h2> -->
+		  	<img src="images/logo.png" width="283px" height="59px">
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,18 +60,19 @@
 		  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
 			<ul class="navbar-nav ml-auto">
 			  <li class="nav-item active">
-				<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			  </li>
-			  <li class="nav-item dropdown">
+			  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+			  <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
 						<li><a class="dropdown-item" href="about.html">Our company</a></li>
 						<li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
 					</ul>
-			  </li>
-			   <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-			   <li class="nav-item"><a class="nav-link" href="project.html">Portfolio</a></li>
-			   <li class="nav-item dropdown">
+			  </li> -->
+			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
+			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown05">
 						<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
@@ -81,12 +80,12 @@
 
 						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
 					</ul>
-			  </li>
-			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			  </li> -->
+			   <!-- <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li> -->
 			</ul>
 
 			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
-			  <a href="contact.html" class="btn btn-solid-border btn-round-full">Get a Quote</a>
+			  <a href="contact.php" class="btn btn-solid-border btn-round-full">Contact</a>
 			</form>
 		  </div>
 		</div>
@@ -101,13 +100,13 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <span class="text-white">Contact Us</span>
+          <!-- <span class="text-white">Contact Us</span> -->
           <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+<!--           <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
             <li class="list-inline-item"><span class="text-white">/</span></li>
             <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
@@ -128,8 +127,8 @@
                         </div>
                     </div>
                     <!-- end message -->
-                    <span class="text-color">Send a message</span>
-                    <h3 class="text-md mb-4">Contact Form</h3>
+                    <span class="text-color">Have any questions?</span>
+                    <h3 class="text-md mb-4">Send Tina a Message</h3>
                     <div class="form-group">
                         <input name="name" type="text" class="form-control" placeholder="Your Name">
                     </div>
@@ -145,8 +144,8 @@
 
             <div class="col-lg-5 col-sm-12">
                 <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
-                    <span class="text-muted">We are Professionals</span>
-                    <h2 class="mb-5 mt-2">Don’t Hesitate to contact with us for any kind of information</h2>
+                    <span class="text-muted">Profesionalism * Integrity * Dedication</span>
+                    <h2 class="mb-5 mt-2">Don’t Hesitate to contact Tina with any question you may have</h2>
 
                     <ul class="address-block list-unstyled">
                         <li>
@@ -183,7 +182,7 @@
 <!-- footer Start -->
 <footer class="footer section">
 	<div class="container">
-		<div class="row">
+<!-- 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="widget">
 					<h4 class="text-capitalize mb-4">Company</h4>
@@ -218,9 +217,9 @@
 						<a href="#" class="btn btn-main btn-small">subscribe</a>
 					</form>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-lg-3 ml-auto col-sm-6">
+<!-- 			<div class="col-lg-3 ml-auto col-sm-6">
 				<div class="widget">
 					<div class="logo mb-4">
 						<h3>Mega<span>kit.</span></h3>
@@ -229,21 +228,23 @@
 					<a href="mailto:support@gmail.com"><span class="text-color h4">+23-456-6588</span></a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		
 		<div class="footer-btm pt-4">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Megakit.</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
+						&copy; Copyright Reserved 
 					</div>
 				</div>
 				<div class="col-lg-6 text-left text-lg-right">
-					<ul class="list-inline footer-socials">
+					<!-- <ul class="list-inline footer-socials">
 						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="ti-facebook mr-2"></i>Facebook</a></li>
 						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="ti-twitter mr-2"></i>Twitter</a></li>
 						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
-					</ul>
+					</ul> -->
+
+					Happy client build website as gratitude!
 				</div>
 			</div>
 		</div>
@@ -276,6 +277,20 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
     
     <script src="js/script.js"></script>
+        <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
   </body>
   </html>
