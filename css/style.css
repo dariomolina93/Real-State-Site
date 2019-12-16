@@ -35,7 +35,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   position: fixed;
   top: 0;
   width: 100%;
+  height: auto !important;
 }
+
+
 
 
 /**************/
@@ -1313,7 +1316,16 @@ h3.quote::before {
     line-height: 46px;
   }
   .bg-about {
-    display: none;
+    position: relative; 
+    content: "";
+    /* left: 0px; */
+    top: 0px;
+    width: 86%;
+    min-height: 356px;
+    /* margin-top: 86px; */
+    background: url(../images/tina-image.png) no-repeat;
+    background-size: contain;
+    margin-left: 31px;
   }
   .p-5 {
     padding: 2rem !important;
@@ -1372,7 +1384,16 @@ h3.quote::before {
     line-height: 46px;
   }
   .bg-about {
-    display: none;
+    position: relative; 
+    content: "";
+    /* left: 0px; */
+    top: 0px;
+    width: 86%;
+    min-height: 356px;
+    /* margin-top: 86px; */
+    background: url(../images/tina-image.png) no-repeat;
+    background-size: contain;
+    margin-left: 31px;
   }
   .p-5 {
     padding: 2rem !important;
@@ -1412,7 +1433,16 @@ h3.quote::before {
     color: #fff;
   }
   .bg-about {
-    display: none;
+    position: relative; 
+    content: "";
+    /* left: 0px; */
+    top: 0px;
+    width: 86%;
+    min-height: 356px;
+     margin-top: -9px; 
+    background: url(../images/tina-image.png) no-repeat;
+    background-size: contain;
+    margin-left: 31px;
   }
   .footer-socials {
     margin-top: 20px;
@@ -1436,6 +1466,9 @@ h3.quote::before {
     display: none;
     width: 100%;
     text-align: center;
+  }
+  .about-item{
+    margin-top:19px;
   }
 }
 

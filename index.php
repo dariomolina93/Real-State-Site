@@ -103,24 +103,24 @@
 <section class="slider">
 	<div class="container">
 		<div class="row">
-<!-- 			<div class="col-lg-9 col-md-10">
+			<div class="col-lg-9 col-md-10">
 				<div class="block">
-					<span class="d-block mb-3 text-white text-capitalize">Prepare for new future</span>
-					<h1 class="animated fadeInUp mb-5">Our work is <br>presentation of our <br>capabilities.</h1>
-					<a href="#" target="_blank" class="btn btn-main animated fadeInUp btn-round-full" >Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+					<span class="d-block mb-3 text-white text-capitalize">Welcome!</span>
+					<h1 class="animated fadeInUp mb-5">Commitment<br>Dedication and <br>Integrity.</h1>
+					<!-- <a href="#" target="_blank" class="btn btn-main animated fadeInUp btn-round-full" >Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a> -->
 				</div>
-			</div> -->
+			</div>
 
 
-				    <div id="myCarousel" class="carousel slide" style="margin-left: auto; margin-right: auto;" data-ride="carousel">
-				        <!-- Carousel indicators -->
-				        <ol class="carousel-indicators">
+<!-- 				    <div id="myCarousel" class="carousel slide" style="margin-left: auto; margin-right: auto;" data-ride="carousel">
+ -->				        <!-- Carousel indicators -->
+				        <!-- <ol class="carousel-indicators">
 				            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				            <li data-target="#myCarousel" data-slide-to="1"></li>
 				            <li data-target="#myCarousel" data-slide-to="2"></li>
-				        </ol>
+				        </ol> -->
 				        <!-- Wrapper for carousel items -->
-				        <div class="carousel-inner">
+				        <!-- <div class="carousel-inner">
 				            <div class="carousel-item active">
 				                <img class="slider-context-size" src="https://images.buildzoom.com/api/file/iKfvCxi5TqiENgjUtvFt/convert?h=&w=600&strip=true&fit=crop&quality=65&cache=true&compress=true" alt="First Slide">
 				            </div>
@@ -130,15 +130,15 @@
 				            <div class="carousel-item">
 				                <img class="slider-context-size" src="https://images.buildzoom.com/api/file/wU93AiHRNOWJvF22SPHg/convert?h=&w=600&strip=true&fit=crop&quality=65&cache=true&compress=true" alt="Third Slide">
 				            </div>
-				        </div>
+				        </div> -->
 				        <!-- Carousel controls -->
-				        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+				        <!-- <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
 				            <span class="carousel-control-prev-icon"></span>
 				        </a>
 				        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
 				            <span class="carousel-control-next-icon"></span>
 				        </a>
-				    </div>
+				    </div> -->
 		</div>
 		<div class="row" style="margin-top: 60px;">
 			
@@ -626,6 +626,8 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
+
+   // header.classList.add("sticky");
 }
 </script>
 
