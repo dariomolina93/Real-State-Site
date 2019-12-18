@@ -66,7 +66,7 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			  </li>
-			  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+			  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 			  <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">

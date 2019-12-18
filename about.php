@@ -4,11 +4,11 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
+<!--   <meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
   
-  <meta name="author" content="themefisher.com">
+  <meta name="author" content="themefisher.com"> -->
 
-  <title>Megakit| Html5 Agency template</title>
+  <title>Tina Garcia</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -27,10 +27,11 @@
 
 <body>
 
+
 <!-- Header Start --> 
 
-<header class="navigation">
-	<div class="header-top ">
+<header class="navigation" id="myHeader" style="z-index: 3">
+<!-- 	<div class="header-top ">
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
 				<div class="col-lg-2 col-md-4">
@@ -48,11 +49,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<nav class="navbar navbar-expand-lg  py-4" id="navbar">
 		<div class="container">
 		  <a class="navbar-brand" href="index.php">
-		  	Mega<span>kit.</span>
+		  	<!-- <h2 style="color: white;">Tina <span>Garcia</span></h2> -->
+		  	<img src="images/logo.png" width="283px" height="59px">
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,16 +66,17 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			  </li>
-			  <li class="nav-item dropdown">
+			  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+			  <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
 						<li><a class="dropdown-item" href="about.html">Our company</a></li>
 						<li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
 					</ul>
-			  </li>
-			   <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-			   <li class="nav-item"><a class="nav-link" href="project.html">Portfolio</a></li>
-			   <li class="nav-item dropdown">
+			  </li> -->
+			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
+			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown05">
 						<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
@@ -81,12 +84,12 @@
 
 						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
 					</ul>
-			  </li>
-			   <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+			  </li> -->
+			   <!-- <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li> -->
 			</ul>
 
 			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
-			  <a href="contact.php" class="btn btn-solid-border btn-round-full">Get a Quote</a>
+			  <a href="contact.php" class="btn btn-solid-border btn-round-full">Contact</a>
 			</form>
 		  </div>
 		</div>
@@ -101,13 +104,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <span class="text-white">About Us</span>
-          <h1 class="text-capitalize mb-4 text-lg">Our Company</h1>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">About Us</a></li>
-          </ul>
+          <h1 class="text-capitalize mb-4 text-lg">About Tina</h1>
         </div>
       </div>
     </div>
@@ -121,17 +118,62 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6">
 				<div class="about-item pr-3 mb-5 mb-lg-0">
-					<span class="h6 text-color">What we are</span>
-					<h2 class="mt-3 mb-4 position-relative content-title">We are dynamic team of creative people</h2>
-					<p class="mb-5">We provide consulting services in the area of IFRS and management reporting, helping companies to reach their highest level. We optimize business processes, making them easier.</p>
+					<span class="h6 text-color">Meet Tina</span>
+					<h2 class="mt-3 mb-4 position-relative content-title">An agent that goes above and beyond</h2>
+					<p class="mb-5">“Opportunity is everywhere. The key is to develop the vision to see it.” Lorem ipsum Lorem ipsum
+					Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
 
 					<a href="#" class="btn btn-main btn-round-full">Get started</a>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6">
-				<div class="about-item-img">
-					<img src="images/about/home-7.jpg" alt="" class="img-fluid">
+				<!-- <div class="about-item-img">
+					<img src="images/tina-image.png" alt="" class="img-fluid">
+					<div class="team-img-hover">
+							<ul class="team-social list-inline">
+								<li class="list-inline-item">
+									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+					</div>
+				</div> -->
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="team-item-wrap mb-5">
+					<div class="team-item position-relative">
+						<img src="images/tina-image.png" alt="" class="img-fluid w-100">
+						<div class="team-img-hover">
+							<ul class="team-social list-inline">
+								<li class="list-inline-item">
+									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+<!-- 					<div class="team-item-content">
+						<h4 class="mt-3 mb-0 text-capitalize">Justin hammer</h4>
+						<p>Digital Marketer</p>
+					</div> -->
 				</div>
+			</div>
+
 			</div>
 		</div>
 	</div>
@@ -144,20 +186,24 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md ">01.</span>Our Mission</h3>
-					<p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio .</p>
+					<h3 class="mb-3"><span class="text-color mr-2 text-md">01.</span>Unique Perspective</h3>
+					<p>Tina was in the mortgage industry for over 20 years, giving her a unique perspective when it comes to the real estate industry. Her background as a Mortgage Underwriter allows her the advantage over other agents when negotiating a comprehensive purchase offer, on the behalf of her buyers. Even better, her extensive knowledge in this field gives her clients an educated insight on the process and what to expect from the financial side. This puts Tina’s clients ahead of the curve and a group of informed homebuyers or sellers</p>
 				</div>		
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">02.</span>Vission</h3>
-					<p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio .</p>
+					<h3 class="mb-3"><span class="text-color mr-2 text-md">02.</span>Commitment</h3>
+					<p>Combine expertise, knowledge, and a sympathetic personality and clients are sure to have a memorable home-buying or home-selling experience with Tina Garcia. Service goes beyond sealing deals or making successful home purchases.
+
+Tina’s commitment in meeting her clients’ goals have thus created a standard of excellence in customer service. It’s not uncommon for Tina to go out of her way to assist a client to resolve any matter. Working with Tina Garcia is more than working with a professional Realtor – it’s like working with a life-long friend.</p>
 				</div>		
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">03.</span>Our Approach</h3>
-					<p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio .</p>
+					<h3 class="mb-3"><span class="text-color mr-2 text-md">03.</span>Beyond Real State</h3>
+					<p>During her time away from real estate, Tina is committed to her community and local schools. She volunteers her time to chair many local events and is an instrumental committee member from the elementary, middle school and district level. She’s a foodie at heart and enjoys time with her husband, children and close family.
+
+Tina is intentional about her business.Her real estate goal: “I want to serve my clients with passion, dedication, and professional expertise.”</p>
 				</div>		
 			</div>
 		</div>
@@ -171,29 +217,29 @@
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="counter-item text-center mb-5 mb-lg-0">
 					<i class="ti-check color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">1730</span> +</h3>
-					<p class="text-white-50">Project Done</p>
+					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">13</span> +</h3>
+					<p class="text-white-50">Years of Experience</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="counter-item text-center mb-5 mb-lg-0">
 					<i class="ti-flag color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">125 </span>M </h3>
-					<p class="text-white-50">User Worldwide</p>
+					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">5487 </span> +</h3>
+					<p class="text-white-50">Happy Clients</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="counter-item text-center mb-5 mb-lg-0">
 					<i class="ti-layers color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">39</span></h3>
-					<p class="text-white-50">Availble Country</p>
+					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">4</span> +</h3>
+					<p class="text-white-50">Communities</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="counter-item text-center">
 					<i class="ti-medall color-one  text-md"></i>
 					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">14</span></h3>
-					<p class="text-white-50">Award Winner </p>
+					<p class="text-white-50">Awards</p>
 				</div>
 			</div>
 		</div>
@@ -547,6 +593,22 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
     
     <script src="js/script.js"></script>
+        <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+
+   // header.classList.add("sticky");
+}
+</script>
 
   </body>
   </html>
