@@ -263,7 +263,7 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="team-item-wrap mb-5">
 					<div class="team-item position-relative">
-						<img src="images/broker" alt="" class="img-fluid w-100">
+						<img src="images/broker.png" alt="" class="img-fluid w-100">
 						<div class="phone-title">925.418.9227</div>
 						<!-- <div class="team-img-hover">
 							<ul class="team-social list-inline">
