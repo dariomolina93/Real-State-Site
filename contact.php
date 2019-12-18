@@ -72,6 +72,7 @@
 			  </li> -->
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
 			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
 			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown05">

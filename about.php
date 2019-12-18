@@ -76,6 +76,7 @@
 			  </li> -->
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
 			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
 			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown05">
@@ -146,7 +147,7 @@
 							</ul>
 					</div>
 				</div> -->
-			<div class="col-lg-4 col-md-6 col-sm-6">
+			<div >
 				<div class="team-item-wrap mb-5">
 					<div class="team-item position-relative">
 						<img src="images/tina-image.png" alt="" class="img-fluid w-100">
@@ -186,13 +187,13 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">01.</span>Unique Perspective</h3>
+					<h3 class="mb-3"><span class="text-color mr-2 text-md">1.</span>Unique Perspective</h3>
 					<p>Tina was in the mortgage industry for over 20 years, giving her a unique perspective when it comes to the real estate industry. Her background as a Mortgage Underwriter allows her the advantage over other agents when negotiating a comprehensive purchase offer, on the behalf of her buyers. Even better, her extensive knowledge in this field gives her clients an educated insight on the process and what to expect from the financial side. This puts Tina’s clients ahead of the curve and a group of informed homebuyers or sellers</p>
 				</div>		
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">02.</span>Commitment</h3>
+					<h3 class="mb-3"><span class="text-color mr-2 text-md">2.</span>Commitment</h3>
 					<p>Combine expertise, knowledge, and a sympathetic personality and clients are sure to have a memorable home-buying or home-selling experience with Tina Garcia. Service goes beyond sealing deals or making successful home purchases.
 
 Tina’s commitment in meeting her clients’ goals have thus created a standard of excellence in customer service. It’s not uncommon for Tina to go out of her way to assist a client to resolve any matter. Working with Tina Garcia is more than working with a professional Realtor – it’s like working with a life-long friend.</p>
@@ -200,7 +201,7 @@ Tina’s commitment in meeting her clients’ goals have thus created a standard
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">03.</span>Beyond Real State</h3>
+					<h3 class="mb-3"><span class="text-color mr-2 text-md">3.</span>Beyond Real State</h3>
 					<p>During her time away from real estate, Tina is committed to her community and local schools. She volunteers her time to chair many local events and is an instrumental committee member from the elementary, middle school and district level. She’s a foodie at heart and enjoys time with her husband, children and close family.
 
 Tina is intentional about her business.Her real estate goal: “I want to serve my clients with passion, dedication, and professional expertise.”</p>
@@ -223,7 +224,7 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="counter-item text-center mb-5 mb-lg-0">
-					<i class="ti-flag color-one text-md"></i>
+					<i class="ti-user color-one text-md"></i>
 					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">5487 </span> +</h3>
 					<p class="text-white-50">Happy Clients</p>
 				</div>
@@ -247,13 +248,13 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 </section>
 <!-- section Counter End  -->
 <!--  Section Services Start -->
-<section class="section team">
+<section style="padding-bottom: 25px;" class="section team">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
 				<div class="section-title">
-					<span class="h6 text-color">Our Team</span>
-					<h2 class="mt-3 content-title">Expert Team member to get best service</h2>
+					<span class="h6 text-color">Broker</span>
+					<h2 class="mt-3 content-title">The best team for the best service</h2>
 				</div>
 			</div>
 		</div>
@@ -262,8 +263,9 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="team-item-wrap mb-5">
 					<div class="team-item position-relative">
-						<img src="images/team/team-1.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
+						<img src="images/broker" alt="" class="img-fluid w-100">
+						<div class="phone-title">925.418.9227</div>
+						<!-- <div class="team-img-hover">
 							<ul class="team-social list-inline">
 								<li class="list-inline-item">
 									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
@@ -278,16 +280,16 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
 								</li>
 							</ul>
-						</div>
+						</div> -->
 					</div>
-					<div class="team-item-content">
+					<!-- <div class="team-item-content">
 						<h4 class="mt-3 mb-0 text-capitalize">Justin hammer</h4>
 						<p>Digital Marketer</p>
-					</div>
+					</div> -->
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6">
+<!-- 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="team-item-wrap mb-5">
 					<div class="team-item position-relative">
 						<img src="images/team/team-2.jpg" alt="" class="img-fluid w-100">
@@ -424,7 +426,7 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 						<p>Project Manager</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
@@ -435,8 +437,8 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
 				<div class="section-title">
-					<span class="h6 text-color">Clients testimonial</span>
-					<h2 class="mt-3 content-title">Check what's our clients say about us</h2>
+					<span class="h6 text-color">Testimonials</span>
+					<h2 class="mt-3 content-title">Checkout what people have to say about Tina</h2>
 				</div>
 			</div>
 		</div>
@@ -445,50 +447,50 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 	<div class="container">
 		<div class="testimonial-wrap">
 			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
+				<!-- <i class="ti-quote-left text-color"></i> -->
 
 				<div class="testimonial-item-content">
-					<p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti facilis blanditiis.</p>
+					<p class="testimonial-text">“Tina Garcia was very helpful throughout the home buying process. She took all of our criteria in account and found us the home we were looking for. She did everything in her power to get our offer accepted in a timely manner. We trusted Tina when she recommended a lender that provided a loan that worked perfectly for our situation.”</p>
 
 					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-						<p>Excutive Director,themefisher</p>
+						<h5 class="mb-0 text-capitalize">E. Ramos</h5>
+						<p>Homeowner</p>
 					</div>
 				</div>
 			</div>
 			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
+				<!-- <i class="ti-quote-left text-color"></i> -->
 
 				<div class="testimonial-item-content">
-					<p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
+					<p class="testimonial-text">“I work with Tina Garcia and her knowledge and professionalism is at an extremely high level. Tina works very hard for her clients to ensure the transaction goes smoothly and efficiently. Tina provides great customer service to her clients and oversees the transaction from start to finish. I would recommend Tina to anyone buying or selling their home.”</p>
 
 					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-						<p>Excutive Director,themefisher</p>
+						<h5 class="mb-0 text-capitalize">J. Camarena</h5>
+						<p>Lender</p>
 					</div>
 				</div>
 			</div>
 			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
+				<!-- <i class="ti-quote-left text-color"></i> -->
 
 				<div class="testimonial-item-content">
-					<p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti.</p>
+					<p class="testimonial-text">“Tina is the person to go to if you like results! She is very knowledgeable in her field and her leadership style helps everyone to get the mission accomplished. If you need a realtor, she is a person to go to! She helped us tremendously in buying our home and was there all the way, making sure that all the details are attended to. I know that she is the only realtor that I would go to for my future business.”</p>
 
 					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">James Watson</h5>
-						<p>Excutive Director,themefisher</p>
+						<h5 class="mb-0 text-capitalize">M. Palma</h5>
+						<p>Homeowner</p>
 					</div>
 				</div>
 			</div>
 			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
+				<!-- <i class="ti-quote-left text-color"></i> -->
 
 				<div class="testimonial-item-content">
-					<p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
+					<p class="testimonial-text">“I’ve known Tina Garcia for over two years as a financial services professional. The first thing everyone should know about Tina is that she is a great listener when it comes to learning about her clients’ needs.  Anyone working with Tina will have a great agent-client experience”</p>
 
 					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-						<p>Excutive Director,themefisher</p>
+						<h5 class="mb-0 text-capitalize">R. Nappier</h5>
+						<p>Business Professional</p>
 					</div>
 				</div>
 			</div>
@@ -497,10 +499,34 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 </section>
 <!-- Section Testimonial End -->
 
+<section class="cta-2">
+	<div class="container">
+		<div class="cta-block p-5 rounded">
+			<div class="row justify-content-center align-items-center ">
+				<div class="col-lg-7">
+					<span class="text-color">Contact Tina</span>
+					<h2 class="mt-2 text-white">“Opportunity is everywhere. The key is to develop the vision to see it.” -Anonymous</h2>
+				</div>
+				<!-- <div class="col-lg-4">
+					<a href="contact.php" class="btn btn-main btn-round-full float-right">Contact Us</a>
+				</div> -->
+				<!-- <div class="row justify-content-center">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<span class="h6 text-color">Broker</span>
+					<h2 class="mt-3 content-title">Expert Team for best service</h2>
+				</div>
+			</div>
+		</div> -->
+			</div>
+		</div>
+	</div>
+</section>
+
 <!-- footer Start -->
 <footer class="footer section">
 	<div class="container">
-		<div class="row">
+<!-- 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="widget">
 					<h4 class="text-capitalize mb-4">Company</h4>
@@ -535,9 +561,9 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 						<a href="#" class="btn btn-main btn-small">subscribe</a>
 					</form>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-lg-3 ml-auto col-sm-6">
+<!-- 			<div class="col-lg-3 ml-auto col-sm-6">
 				<div class="widget">
 					<div class="logo mb-4">
 						<h3>Mega<span>kit.</span></h3>
@@ -546,13 +572,13 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 					<a href="mailto:support@gmail.com"><span class="text-color h4">+23-456-6588</span></a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		
 		<div class="footer-btm pt-4">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Megakit.</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
+						&copy; Copyright Reserved 
 					</div>
 				</div>
 				<div class="col-lg-6 text-left text-lg-right">
