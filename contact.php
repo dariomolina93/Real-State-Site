@@ -62,7 +62,7 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			  </li>
-			  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+			  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 			  <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
@@ -233,19 +233,20 @@
 		
 		<div class="footer-btm pt-4">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-sm-4">
 					<div class="copyright">
 						&copy; Copyright Reserved 
 					</div>
 				</div>
-				<div class="col-lg-6 text-left text-lg-right">
-					<!-- <ul class="list-inline footer-socials">
-						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="ti-facebook mr-2"></i>Facebook</a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="ti-twitter mr-2"></i>Twitter</a></li>
-						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
-					</ul> -->
-
-					Happy client build website as gratitude!
+				<div class="col-sm-4 ">
+					<ul class="list-inline footer-socials">
+						<li class="list-inline-item"><a href="https://www.facebook.com/BREREALTOR/" target="_blank"><i class="ti-facebook mr-2"></i>Facebook</a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/RealtorTinaG" target="_blank"><i class="ti-twitter mr-2"></i>Twitter</a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/in/tina-garcia-3a4a6084?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4 " style="text-align: right;">
+					Website build by happy client:)
 				</div>
 			</div>
 		</div>
