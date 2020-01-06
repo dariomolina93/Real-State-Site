@@ -150,7 +150,7 @@
 			<div >
 				<div class="team-item-wrap mb-5">
 					<div class="team-item position-relative">
-						<img src="images/tina-image.png" alt="" class="img-fluid w-100">
+						<img style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);" src="images/tina-image.png" alt="" class="img-fluid w-100">
 						<div class="team-img-hover">
 							<ul class="team-social list-inline">
 								<li class="list-inline-item">

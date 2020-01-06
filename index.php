@@ -75,7 +75,7 @@
 					</ul>
 			  </li> -->
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
-			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+			   <li class="nav-item"><a class="nav-link" href="reviews.php">Reviews</a></li>
 			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
 			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
@@ -314,7 +314,7 @@
  <!-- Section Cta Start --> 
 <section class="section cta">
 	<div class="container">
-				<div class="row justify-content-center">
+		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
 				<div class="section-title">
 					<span class="h6" style="color:white;">Latest Reviews</span><!-- 
@@ -331,14 +331,14 @@
 			</div>
 			<div class="col-md-4">
 				<div class="cta-item  bg-white p-5 rounded">
-					<h6 class="mt-2 mb-4">“Selecting a real estate professional to find us the home of our dreams was a major decision. After going through multiple agents who weren’t able to find us the right home, we were blessed to have met Tina, she was so attentive to our needs, very patient and always available when we had a question.  We would definitely recommend Tina to anyone looking to buy a home.”</h6>
-					<div class="h6 text-color" style="text-align: right;">-Wade and Jordan</div>
+					<h6 class="mt-2 mb-4">“Tina Garcia was very helpful throughout the home buying process. She took all of our criteria in account and found us the home we were looking for. She did everything in her power to get our offer accepted in a timely manner. We trusted Tina when she recommended a lender that provided a loan that worked perfectly for our situation.””</h6>
+					<div class="h6 text-color" style="text-align: right;">-E. Ramos</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="cta-item  bg-white p-5 rounded">
-					<h6 class="mt-2 mb-4">“Selecting a real estate professional to find us the home of our dreams was a major decision. After going through multiple agents who weren’t able to find us the right home, we were blessed to have met Tina, she was so attentive to our needs, very patient and always available when we had a question.  We would definitely recommend Tina to anyone looking to buy a home.”</h6>
-					<div class="h6 text-color" style="text-align: right;">-Wade and Jordan</div>
+					<h6 class="mt-2 mb-4">“Tina is the person to go to if you like results! She is very knowledgeable in her field and her leadership style helps everyone to get the mission accomplished. If you need a realtor, she is a person to go to! She helped us tremendously in buying our home and was there all the way, making sure that all the details are attended to. I know that she is the only realtor that I would go to for my future business.”</h6>
+					<div class="h6 text-color" style="text-align: right;">-M. Palma</div>
 				</div>
 				<!-- <div class="cta-item  bg-white p-5 rounded">
 					<span class="h6 text-color">We create for you</span>

@@ -606,6 +606,7 @@ ul.dropdown-menu li {
   background: url("../images/tina-image.png") no-repeat;
   background-size: cover;
   margin-left: 53px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .about-content {
@@ -724,10 +725,22 @@ ul.dropdown-menu li {
 }
 
 .cta {
-  background: url("../images/bg/home-3.jpg") fixed 50% 50%;
+  background: url("https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/s960x960/72971335_2059607224139919_404081492554153984_o.jpg?_nc_cat=110&_nc_oc=AQmoivNqy7zpvjkSbjAZnckdQOB6R77xPj716Y6XPB79kw88IszVC51KcUOUsSXm01k&_nc_ht=scontent-sjc3-1.xx&oh=5e3bfcbee887273699befa6c5aeb6ae6&oe=5E925D57") fixed 50% 50%;
   background-size: cover;
   padding: 120px 0px;
 }
+
+.ctaFacebook {
+  background: url("https://i.pinimg.com/originals/3a/82/8b/3a828b79becfb1981cd8ef6bcb91fbed.jpg") fixed 50% 50%;
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+/*.ctaIntero {
+  background: url("https://webassets.inman.com/wp-content/uploads/2013/04/BHHS_2_0_01.jpg") fixed 50% 50%;
+  background-size: cover;
+  padding: 120px 0px;
+}*/
 
 .cta-block {
   background: url("../images/bg/home-3.jpg") no-repeat;
@@ -1342,6 +1355,7 @@ h3.quote::before {
     background: url(../images/tina-image.png) no-repeat;
     background-size: contain;
     margin-left: 31px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
   .p-5 {
     padding: 2rem !important;
@@ -1411,6 +1425,7 @@ h3.quote::before {
     background: url(../images/tina-image.png) no-repeat;
     background-size: contain;
     margin-left: 31px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }
   .p-5 {
     padding: 2rem !important;
@@ -1461,6 +1476,7 @@ h3.quote::before {
     background: url(../images/tina-image.png) no-repeat;
     background-size: contain;
     margin-left: 31px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.3);
   }
   .footer-socials {
     margin-top: 20px;
