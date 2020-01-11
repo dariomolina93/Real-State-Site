@@ -172,7 +172,7 @@
 				<div class="service-item mb-5 mb-lg-0">
 					<i class="ti-bar-chart"></i>
 					<h4 class="mb-3">Market Insights</h4>
-					<p>s</p>
+					<p>Tina will inform you and guide you about the past, present and possible future markets trends. What you can expect from the market and what you can anticipate years to come. </p>
 				</div>
 			</div>
 		</div>
@@ -215,8 +215,6 @@
 	</div>
 </section>
 
-<!--  Section Cta End-->
-</section> -->
 <!-- Section Testimonial End -->
 <section class="section latest-blog bg-2">
 	<div class="container">
@@ -318,9 +316,9 @@
     <script src="plugins/counterup/jquery.counterup.min.js"></script>
 
     <!-- Google Map -->
-    <script src="plugins/google-map/map.js"></script>
+<!--     <script src="plugins/google-map/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
-    
+     -->
     <script src="js/script.js"></script>
 
     <script>
