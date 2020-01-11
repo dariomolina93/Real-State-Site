@@ -11,7 +11,7 @@
         message.text(response);
         setTimeout(function () {
             message.fadeOut();
-        }, 2000);
+        }, 90000);
         form.find('input:not([type="submit"]), textarea').val('');
     }
 
@@ -21,7 +21,7 @@
         message.text(data.responseText);
         setTimeout(function () {
             message.fadeOut();
-        }, 2000);
+        }, 90000);
     }
     
     form.submit(function (e) {

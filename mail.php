@@ -83,7 +83,7 @@ EOT;
                     http_response_code(403);
                     echo 'Invalid email address, message ignored.';
                 }
-            }
+            
 
             // Content
         //     $mail->isHTML(true);                                  // Set email format to HTML
@@ -93,9 +93,9 @@ EOT;
 
         //     $mail->send();
         //     echo 'Message has been sent';
-        // } catch (Exception $e) {
-        //     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-        // }
+        } catch (Exception $e) {
+            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        }
 
 
         //////////////////////////////////////////////////
@@ -125,6 +125,6 @@ EOT;
     //     # Not a POST request, set a 403 (forbidden) response code.
     //     http_response_code(403);
     //     echo "There was a problem with your submission, please try again.";
-    // }
+    }
 
 ?>
