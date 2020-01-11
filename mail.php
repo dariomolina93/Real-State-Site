@@ -36,7 +36,7 @@ require 'vendor/autoload.php';
 
         try {
             //Server settings
-            $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+            //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $mail->isSMTP();                                            // Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
@@ -46,7 +46,7 @@ require 'vendor/autoload.php';
             $mail->Port       = 587;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom("tinagarciarealtorsite@gmail.com","Website");
+            $mail->setFrom("tinagarciarealtorsite@gmail.com","Tina Garcia Website");
             $mail->addAddress('darioporta88@gmail.com');     // Add a recipient
             // $mail->addAddress('ellen@example.com');               // Name is optional
             // $mail->addReplyTo('info@example.com', 'Information');
@@ -59,7 +59,7 @@ require 'vendor/autoload.php';
 
 
             if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
-                    $mail->Subject = 'PHPMailer contact form';
+                    $mail->Subject = 'New Inquiry From Client';
                     //Keep it simple - don't use HTML
                     $mail->isHTML(false);
                     //Build a simple message body
