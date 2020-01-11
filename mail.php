@@ -28,7 +28,7 @@
         $headers = "From: $name <$email>";
 
         # Send the email.
-        $success = mail($mail_to,$subject,$content, $headers);
+        $success = mail($mail_to,$content, $headers);
         if ($success) {
             # Set a 200 (okay) response code.
             http_response_code(200);
