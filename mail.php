@@ -47,7 +47,7 @@ require 'vendor/autoload.php';
 
             //Recipients
             $mail->setFrom("tinagarciarealtor@gmail.com","Website");
-            $mail->addAddress('tgarcia@brerealtor.com');     // Add a recipient
+            $mail->addAddress('darioporta88@gmail.com');     // Add a recipient
             // $mail->addAddress('ellen@example.com');               // Name is optional
             // $mail->addReplyTo('info@example.com', 'Information');
             // $mail->addCC('cc@example.com');
