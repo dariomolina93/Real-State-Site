@@ -31,30 +31,11 @@
 <!-- Header Start --> 
 
 <header class="navigation" id="myHeader" style="z-index: 3">
-<!-- 	<div class="header-top ">
-		<div class="container">
-			<div class="row justify-content-between align-items-center">
-				<div class="col-lg-2 col-md-4">
-					<div class="header-top-socials text-center text-lg-left text-md-left">
-						<a href="https://www.facebook.com/themefisher" target="_blank"><i class="ti-facebook"></i></a>
-						<a href="https://twitter.com/themefisher" target="_blank"><i class="ti-twitter"></i></a>
-						<a href="https://github.com/themefisher/" target="_blank"><i class="ti-github"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
-					<div class="header-top-info">
-						<a href="tel:+23-345-67890">Call Us : <span>+23-345-67890</span></a>
-						<a href="mailto:support@gmail.com" ><i class="fa fa-envelope mr-2"></i><span>support@gmail.com</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 	<nav class="navbar navbar-expand-lg  py-4" id="navbar">
 		<div class="container">
 		  <a class="navbar-brand" href="index.php">
 		  	<!-- <h2 style="color: white;">Tina <span>Garcia</span></h2> -->
-		  	<img src="images/logo.png" width="283px" height="59px">
+		  	<img src="images/logo.png" width="283px" height="49px">
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,26 +48,10 @@
 				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			  </li>
 			  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-			  <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="about.html">Our company</a></li>
-						<li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
-					</ul>
-			  </li> -->
+
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
 			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
 			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
-			   <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  </li> -->
-			   <!-- <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li> -->
 			</ul>
 
 			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
@@ -105,11 +70,6 @@
         <div class="block text-center">
           <!-- <span class="text-white">Contact Us</span> -->
           <h1 class="text-capitalize mb-4 text-lg">Tina's Reviews</h1>
-<!--           <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
-          </ul> -->
         </div>
       </div>
     </div>
@@ -119,10 +79,6 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
-				<!-- <div class="section-title">
-					<span class="h6 text-color">Tina's Here For You</span>
-					<h2 class="mt-3 content-title ">Every step of the way for the service you need</h2>
-				</div> -->
 				<h2><a href="https://reach150.com/m/review/64391/intero-real-estate-brentwood-downtown-tina-garcia-brentwood-ca-real-estate" target="_blank">Intero</a></h2>
 			</div>
 		</div>
@@ -184,55 +140,7 @@ Tina was able to sell our home quickly and with multiple offers and at the same 
 </section>
 
 <footer class="footer section">
-	<div class="container">
-<!-- 		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Company</h4>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">FAQ</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Quick Links</h4>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Team</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Subscribe Us</h4>
-					<p>Subscribe to get latest news article and resources  </p>
-
-					<form action="#" class="sub-form">
-						<input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
-						<a href="#" class="btn btn-main btn-small">subscribe</a>
-					</form>
-				</div>
-			</div> -->
-
-<!-- 			<div class="col-lg-3 ml-auto col-sm-6">
-				<div class="widget">
-					<div class="logo mb-4">
-						<h3>Mega<span>kit.</span></h3>
-					</div>
-					<h6><a href="tel:+23-345-67890" >Support@megakit.com</a></h6>
-					<a href="mailto:support@gmail.com"><span class="text-color h4">+23-456-6588</span></a>
-				</div>
-			</div>
-		</div> -->
-		
+	<div class="container">		
 		<div class="footer-btm pt-4">
 			<div class="row">
 				<div class="col-sm-4">

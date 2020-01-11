@@ -4,6 +4,11 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
 
   <title>Tina Garcia</title>
 
@@ -50,7 +55,7 @@
 		<div class="container">
 		  <a class="navbar-brand" href="index.php">
 		  	<!-- <h2 style="color: white;">Tina <span>Garcia</span></h2> -->
-		  	<img src="images/logo.png" width="283px" height="59px">
+		  	<img src="images/logo.png" width="283px" height="49px">
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,26 +68,10 @@
 				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			  </li>
 			  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-			  <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="about.html">Our company</a></li>
-						<li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
-					</ul>
-			  </li> -->
+	
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
-			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+			   <li class="nav-item"><a class="nav-link" href="reviews.php">Reviews</a></li>
 			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
-			   <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  </li> -->
-			   <!-- <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li> -->
 			</ul>
 
 			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
@@ -103,11 +92,6 @@
         <div class="block text-center">
           <!-- <span class="text-white">Contact Us</span> -->
           <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
-<!--           <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
-          </ul> -->
         </div>
       </div>
     </div>
@@ -150,13 +134,13 @@
 
                     <ul class="address-block list-unstyled">
                         <li>
-                            <i class="ti-direction mr-3"></i>North Main Street,Brooklyn Australia
+                            <i class="ti-direction mr-3"></i>2455 Sand Creek Road Suite 104,Brentwood, CA 94513
                         </li>
                         <li>
-                            <i class="ti-email mr-3"></i>Email: contact@mail.com
+                            <i class="ti-email mr-3"></i>Email: tgarcia@brerealtor.com
                         </li>
                         <li>
-                            <i class="ti-mobile mr-3"></i>Phone:+88 01672 506 744
+                            <i class="ti-mobile mr-3"></i>Phone:925-418-9227
                         </li>
                     </ul>
 
@@ -177,59 +161,12 @@
     </div>
 </section>
 
-<div class="google-map">
+<!-- <div class="google-map">
     <div id="map"></div>
-</div>
+</div> -->
 <!-- footer Start -->
 <footer class="footer section">
 	<div class="container">
-<!-- 		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Company</h4>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">FAQ</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Quick Links</h4>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Team</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Subscribe Us</h4>
-					<p>Subscribe to get latest news article and resources  </p>
-
-					<form action="#" class="sub-form">
-						<input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
-						<a href="#" class="btn btn-main btn-small">subscribe</a>
-					</form>
-				</div>
-			</div> -->
-
-<!-- 			<div class="col-lg-3 ml-auto col-sm-6">
-				<div class="widget">
-					<div class="logo mb-4">
-						<h3>Mega<span>kit.</span></h3>
-					</div>
-					<h6><a href="tel:+23-345-67890" >Support@megakit.com</a></h6>
-					<a href="mailto:support@gmail.com"><span class="text-color h4">+23-456-6588</span></a>
-				</div>
-			</div>
-		</div> -->
 		
 		<div class="footer-btm pt-4">
 			<div class="row">
@@ -262,6 +199,8 @@
     
     <!-- Main jQuery -->
     <script src="plugins/jquery/jquery.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="js/contact.js"></script>
     <!-- Bootstrap 4.3.1 -->
     <script src="plugins/bootstrap/js/popper.js"></script>

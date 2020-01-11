@@ -31,30 +31,12 @@
 <!-- Header Start --> 
 
 <header class="navigation" id="myHeader" style="z-index: 3">
-<!-- 	<div class="header-top ">
-		<div class="container">
-			<div class="row justify-content-between align-items-center">
-				<div class="col-lg-2 col-md-4">
-					<div class="header-top-socials text-center text-lg-left text-md-left">
-						<a href="https://www.facebook.com/themefisher" target="_blank"><i class="ti-facebook"></i></a>
-						<a href="https://twitter.com/themefisher" target="_blank"><i class="ti-twitter"></i></a>
-						<a href="https://github.com/themefisher/" target="_blank"><i class="ti-github"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
-					<div class="header-top-info">
-						<a href="tel:+23-345-67890">Call Us : <span>+23-345-67890</span></a>
-						<a href="mailto:support@gmail.com" ><i class="fa fa-envelope mr-2"></i><span>support@gmail.com</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
+
 	<nav class="navbar navbar-expand-lg  py-4" id="navbar">
 		<div class="container">
 		  <a class="navbar-brand" href="index.php">
 		  	<!-- <h2 style="color: white;">Tina <span>Garcia</span></h2> -->
-		  	<img src="images/logo.png" width="283px" height="59px">
+		  	<img src="images/logo.png" width="283px" height="49px">
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,26 +49,9 @@
 				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			  </li>
 			  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-			  <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="about.html">Our company</a></li>
-						<li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
-					</ul>
-			  </li> -->
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
-			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+			   <li class="nav-item"><a class="nav-link" href="reviews.php">Reviews</a></li>
 			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
-			   <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  </li> -->
-			   <!-- <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li> -->
 			</ul>
 
 			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
@@ -120,61 +85,36 @@
 			<div class="col-lg-6 col-md-6">
 				<div class="about-item pr-3 mb-5 mb-lg-0">
 					<span class="h6 text-color">Meet Tina</span>
-					<h2 class="mt-3 mb-4 position-relative content-title">An agent that goes above and beyond</h2>
-					<p class="mb-5">“Opportunity is everywhere. The key is to develop the vision to see it.” Lorem ipsum Lorem ipsum
-					Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+					<h2 class="mt-3 mb-4 position-relative content-title">An Agent That Goes Above and Beyond</h2>
+					<p class="mb-5">“I'm an energetic team leader with a strong commitment to performance excellence with a proven track record of success in cultivating new and existing business. And, always passionate about the local schools, business community and East Bay region."</p>
 
 					<a href="#" class="btn btn-main btn-round-full">Get started</a>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6">
-				<!-- <div class="about-item-img">
-					<img src="images/tina-image.png" alt="" class="img-fluid">
-					<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-					</div>
-				</div> -->
-			<div >
-				<div class="team-item-wrap mb-5">
-					<div class="team-item position-relative">
-						<img style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);" src="images/tina-image.png" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
+				<div >
+					<div class="team-item-wrap mb-5">
+						<div class="team-item position-relative">
+							<img style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);" src="images/tina-image.png" alt="" class="img-fluid w-100">
+							<div class="team-img-hover">
+								<ul class="team-social list-inline">
+									<li class="list-inline-item">
+										<a href="https://www.facebook.com/BREREALTOR/" target="_blank" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+									</li>
+									<li class="list-inline-item">
+										<a href="https://twitter.com/RealtorTinaG" target="_blank" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+									</li>
+									<li class="list-inline-item">
+										<a href="https://www.instagram.com/hustlingrealestate/" target="_blank" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+									</li>
+									<li class="list-inline-item">
+										<a href="https://www.linkedin.com/in/tinagarcia925/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-<!-- 					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Justin hammer</h4>
-						<p>Digital Marketer</p>
-					</div> -->
 				</div>
-			</div>
-
 			</div>
 		</div>
 	</div>
@@ -265,168 +205,10 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 					<div class="team-item position-relative">
 						<img src="images/broker.png" alt="" class="img-fluid w-100">
 						<div class="phone-title">925.418.9227</div>
-						<!-- <div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div> -->
-					</div>
-					<!-- <div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Justin hammer</h4>
-						<p>Digital Marketer</p>
-					</div> -->
-				</div>
-			</div>
-
-<!-- 			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5">
-					<div class="team-item position-relative">
-						<img src="images/team/team-2.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Jason roy</h4>
-						<p>UI/UX Designer</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5 ">
-					<div class="team-item position-relative">
-						<img src="images/team/team-3.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Henry oswald</h4>
-						<p>Developer</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5 mb-lg-0">
-					<div class="team-item position-relative">
-						<img src="images/team/team-4.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">David Williams</h4>
-						<p>Senior Marketer</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5 mb-lg-0">
-					<div class="team-item position-relative">
-						<img src="images/team/team-6.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Peter Odin</h4>
-						<p>App Developer</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5 mb-lg-0 ">
-					<div class="team-item position-relative">
-						<img src="images/team/team-5.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">David Spensor</h4>
-						<p>Project Manager</p>
-					</div>
-				</div>
-			</div> -->
 		</div>
 	</div>
 </section>
@@ -450,10 +232,10 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 				<!-- <i class="ti-quote-left text-color"></i> -->
 
 				<div class="testimonial-item-content">
-					<p class="testimonial-text">“Tina Garcia was very helpful throughout the home buying process. She took all of our criteria in account and found us the home we were looking for. She did everything in her power to get our offer accepted in a timely manner. We trusted Tina when she recommended a lender that provided a loan that worked perfectly for our situation.”</p>
+					<p class="testimonial-text">“Tina is a great real agent agent. She has a great friendly personality and is always on top of things.”</p>
 
 					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">E. Ramos</h5>
+						<h5 class="mb-0 text-capitalize">I. Agam</h5>
 						<p>Homeowner</p>
 					</div>
 				</div>

@@ -3,13 +3,14 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         # FIX: Replace this email with recipient email
-        $mail_to = "USEREMAIL@gmail.com";
+        $mail_to = "darioporta88@gmail.com";
         
         # Sender Data
         // $subject = trim($_POST["subject"]);
         $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
+        $subject = "Tina Garcia Website";
         
         if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($subject) OR empty($message)) {
             # Set a 400 (bad request) response code and exit.
@@ -27,7 +28,7 @@
         $headers = "From: $name <$email>";
 
         # Send the email.
-        $success = mail($mail_to,$content, $headers);
+        $success = mail($mail_to,$subject,$content, $headers);
         if ($success) {
             # Set a 200 (okay) response code.
             http_response_code(200);

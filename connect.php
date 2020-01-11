@@ -66,7 +66,7 @@
 		<div class="container">
 		  <a class="navbar-brand" href="index.php">
 		  	<!-- <h2 style="color: white;">Tina <span>Garcia</span></h2> -->
-		  	<img src="images/logo.png" width="283px" height="59px">
+		  	<img src="images/logo.png" width="283px" height="49px">
 		  </a>
 
 		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -87,7 +87,7 @@
 					</ul>
 			  </li> -->
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
-			   <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+			   <li class="nav-item"><a class="nav-link" href="reviews.php">Reviews</a></li>
 			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
 			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
@@ -283,6 +283,23 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
     
     <script src="js/script.js"></script>
+
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+
+   // header.classList.add("sticky");
+}
+</script>
 
   </body>
   </html>
