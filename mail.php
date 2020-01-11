@@ -46,7 +46,7 @@ require 'vendor/autoload.php';
             $mail->Port       = 587;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom("tinagarciarealtor@gmail.com","Website");
+            $mail->setFrom("tinagarciarealtorsite@gmail.com","Website");
             $mail->addAddress('darioporta88@gmail.com');     // Add a recipient
             // $mail->addAddress('ellen@example.com');               // Name is optional
             // $mail->addReplyTo('info@example.com', 'Information');
