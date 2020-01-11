@@ -1,6 +1,5 @@
 {
     "require": {
-        "facebook/graph-sdk": "^5.7",
-        "stevenmaguire/yelp-php": "^2.2"
+        "phpmailer/phpmailer": "~6.1"
     }
 }
