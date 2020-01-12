@@ -46,9 +46,9 @@
 		  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
 			<ul class="navbar-nav ml-auto">
 			  <li class="nav-item active">
-				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
 			  </li>
-			  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+			  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
 			   <li class="nav-item"><a class="nav-link" href="reviews.php">Reviews</a></li>
 			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
@@ -88,13 +88,13 @@
 					<h2 class="mt-3 mb-4 position-relative content-title">An Agent That Goes Above and Beyond</h2>
 					<p class="mb-5">“I'm an energetic team leader with a strong commitment to performance excellence with a proven track record of success in cultivating new and existing business. And, always passionate about the local schools, business community and East Bay region."</p>
 
-					<a href="#" class="btn btn-main btn-round-full">Get started</a>
+					<a href="#" class="btn btn-main btn-round-full">Contact Tina</a>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6">
 				<div >
 					<div class="team-item-wrap mb-5">
-						<div class="team-item position-relative">
+						<div class="team-item position-relative" style="box-shadow: 0 10px 22px rgba(0, 0, 0, 0.3)">
 							<img style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);" src="images/tina-image.png" alt="" class="img-fluid w-100">
 							<div class="team-img-hover">
 								<ul class="team-social list-inline">
@@ -287,7 +287,7 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
 			<div class="row justify-content-center align-items-center ">
 				<div class="col-lg-7">
 					<span class="text-color">Contact Tina</span>
-					<h2 class="mt-2 text-white">“Opportunity is everywhere. The key is to develop the vision to see it.” -Anonymous</h2>
+					<h2 class="mt-2 text-white">I am available to schedule a property showing, get more information on a listing or to answer any of your real estate related questions.</h2>
 				</div>
 				<!-- <div class="col-lg-4">
 					<a href="contact.php" class="btn btn-main btn-round-full float-right">Contact Us</a>
@@ -400,9 +400,9 @@ Tina is intentional about her business.Her real estate goal: “I want to serve 
     <script src="plugins/counterup/jquery.counterup.min.js"></script>
 
     <!-- Google Map -->
-    <script src="plugins/google-map/map.js"></script>
+<!--     <script src="plugins/google-map/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
-    
+     -->
     <script src="js/script.js"></script>
         <script>
 window.onscroll = function() {myFunction()};

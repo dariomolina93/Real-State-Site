@@ -88,7 +88,7 @@
 			  </li> -->
 			   <li class="nav-item"><a class="nav-link" href="#">Listings</a></li>
 			   <li class="nav-item"><a class="nav-link" href="reviews.php">Reviews</a></li>
-			   <li class="nav-item"><a class="nav-link" href="connect.php">Connect</a></li>
+			   <li class="nav-item"><a class="nav-link" href="#">Connect</a></li>
 			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown05">
@@ -146,7 +146,7 @@
 				<div class="portflio-item position-relative ">
 
 					<a class="twitter-timeline" href="https://twitter.com/RealtorTinaG" data-tweet-limit="4" data-width="399" ></a>
-<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/RealtorTinaG?ref_src=twsrc%5Etfw">Tweets by RealtorTinaG</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
@@ -279,9 +279,9 @@
     <script src="plugins/counterup/jquery.counterup.min.js"></script>
 
     <!-- Google Map -->
-    <script src="plugins/google-map/map.js"></script>
+<!--     <script src="plugins/google-map/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
-    
+     -->
     <script src="js/script.js"></script>
 
     <script>
